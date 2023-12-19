@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fomost Personal Website</title>
+    <title>Fomost</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">Fomost</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
+    <header class="homepage-con" id="home">
+        <div class="homepage-menu-con">
+            <div>
+                <a href="#home">PHONGTANES</a>
             </div>
+        <div class="homepage-menu">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
         </div>
-    </nav>
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Phongtanes Yopratoom</h2>
-                <p class="hero_desc">I am a Student From KKTECH</p>
+    </div>
+    <div class="text-content">
+        <h1>PHONGTANES</h1>
+    </div>
+    </header>
+    <section class="content-2" id="about">
+        <div class="profile-img">
+            <img src="/img/pro1.jpeg" alt="">
+        </div>
+        <div class="text-about">
+            <h1>Personal Information</h1>
+            <div class="icon">
+                <i class="fa-solid fa-user"><span> Phongtanes Yopratoom </span></i>
+                <i class="fa-solid fa-calendar-days"><span> Nov ,03 2004 </span></i>
+                <i class="fa-solid fa-phone"><span> 095-162-4238 </span></i>
+                <i class="fa-solid fa-envelope"><span> s66309010016 </span></i>
+                <i class="fa-solid fa-house"><span> Khonkaen, Thailand </span></i>
             </div>
+            <h1>Contact Me</h1>
+            <section class="content-2" id="contact"></section>
+            <div class="icon-contact">
+                <span><a href="https://www.facebook.com/profile.php?id=100068160227031" target="_blank"><i class="fa-brands fa-square-facebook"><span class="text-span"> Facebook </span></i></a></span>
+                <span><a href="https://www.instagram.com/bbfxmxst/" target="_blank"><i class="fa-brands fa-square-instagram"><span class="text-span"> Instagram </span></i></a></span>
+                <span><a href="https://github.com/phongtanes/phongtanes.github.io" target="_blank"><i class="fa-brands fa-square-git"><span class="text-span"> Github </span></i></a></span>
             </div>
         </div>
     </section>
