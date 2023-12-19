@@ -1,22 +1,51 @@
-/* hero background image */
-.bgimage {
-    height:100vh;
-    background: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=996&t=st=1702957321~exp=1702957921~hmac=cbb1de37843dd95d43b6a43745a629a044427a6bb4400b6e2cec1bf0912c7270);
-    background-size:cover;
-    position:relative;
+@import url('https://fonts.googleapis.com/css?family=Rubik+Bubbles&display=swap');
+html{
+    scroll-behavior: smooth;
 }
-/* text css above hero image*/
-.hero_title {
-    font-size: 4.5rem;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Pro', serif;
 }
-.hero_desc {
+/*Menu*/
+.homepage-con{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/fer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo a{
     font-size: 2rem;
-}
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-weight: 600;
     color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.homepage-menu-con{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0 6rem;
+    background-color: black;
+    backdrop-filter: blur(50px);
+}.homepage-menu-con a{
+    color: ghostwhite;
+    margin: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 750ms;
+}
+.homepage-menu-con a:hover{
+    padding: 5px 5px ;
+    text-shadow: 0.1rem 0;
+    color: skyblue;
+    transition: 250ms;
 }
