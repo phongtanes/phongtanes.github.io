@@ -28,7 +28,7 @@ html{
     border-radius: 20px;
     margin-bottom: 5px;
     width: 100%;
-    height: 3.5rem;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,8 +44,95 @@ html{
     transition: 750ms;
 }
 .homepage-menu-con a:hover{
-    padding: 5px 5px ;
-    text-shadow: 0.1rem 0;
+    padding: 3px 7px ;
+    text-shadow: 1px 0;
     color: skyblue;
-    transition: 250ms;
+    transition: 200ms;
+}
+.homepage-menu-con a:focus{
+    color: brown;
+}
+/* Main */
+.text-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    color: ghostwhite;
+}
+.text-content span{
+    font-weight: 600;
+    text-shadow: 0 0 1rem black;
+    color: aliceblue;
+    font-size: 3.5rem;
+}
+/* Main 2 */
+.content-2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/fer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.profile{
+    display: grid;
+    grid-template-columns: repeat(2,1);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 45rem;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+}
+.profile-img{
+    width: 100%;
+}
+.profile-img img{
+    width: 100%;
+    overflow: visible;
+}
+.text-about{
+    margin-left: 2rem;
+}
+.text-about h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: aquamarine;
+    text-shadow: 0 0.25rem black;
+    margin-bottom: 2.5rem;
+    cursor: default;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.icon i{
+    margin-bottom: 1rem;
+    color: ghostwhite;
+    font-size: 20px;
+    cursor: default;
+}
+.icon i span{
+    margin-left: 1rem;
+}
+.icon-contact{
+    display: flex;
+    flex-direction: column;
+}
+.text-span{
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.icon-contact i{
+    font-size: 25px;
+    margin-bottom: 0.8rem;
 }
