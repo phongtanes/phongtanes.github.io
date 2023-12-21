@@ -149,11 +149,7 @@ html{
 .icon-contact i{
     font-size: 25px;
     margin-bottom: 0.8rem;
-<<<<<<< HEAD
-    
-=======
     color: aliceblue;
->>>>>>> 41bc240f2208fc5f5e160fb1dca8d7903b0b5b3e
 }
 .icon-contact :hover{
     color: rgba(220,160,255,0.8);
