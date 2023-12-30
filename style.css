@@ -74,6 +74,11 @@ html{
     cursor: default;
     color: ghostwhite;
 }
+.text-content h1:hover{
+    cursor: default;
+    color: rgba(220,160,255,1);
+    transition: 650ms;
+}
 .text-content span{
     font-weight: 600;
     text-shadow: 0 0 1rem black;
